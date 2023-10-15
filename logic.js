@@ -438,7 +438,7 @@ document.addEventListener("touchend", (e) => {
        setTimeout(() => {
            alert("Game Over! You have lost the game. Game will restart");
            restartGame();
-           alert("Click any arrow key to restart");
+           alert("Swipe in any direction to restart");
            // You may want to reset the game or perform other actions when the user loses.
        }, 100); // Adjust the delay time (in milliseconds) as needed
 
